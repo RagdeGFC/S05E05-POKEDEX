@@ -52,9 +52,8 @@ function Home() {
 	};
 
 	const getButtonText = () => {
-		if (isFirstClick) return 'Play background';
-		if (!inputText.trim())
-			return isVideoPlaying ? 'Stop background' : 'Play background';
+		if (isFirstClick) return 'Play video';
+		if (!inputText.trim()) return isVideoPlaying ? 'Stop video' : 'Play video';
 		return 'Comenzar';
 	};
 

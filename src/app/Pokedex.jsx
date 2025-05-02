@@ -155,7 +155,7 @@ function Pokedex() {
 						onClick={() => handleTypeFilter('')}
 						className="btn-clear-filters"
 					>
-						Limpiar
+						Resetear
 					</button>
 				</div>
 				<button onClick={changePhrase} className="btn-change-background">
