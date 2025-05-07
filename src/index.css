@@ -1058,6 +1058,16 @@ p {
 		justify-content: center;
 	}
 }
+
+@media (max-width: 600px) {
+	.page-numbers {
+		max-width: 99vw;
+		width: 100%;
+		margin: 1em auto;
+		justify-content: center;
+	}
+}
+
 @media (max-width: 480px) {
 	.page-numbers {
 		max-width: 98vw;
