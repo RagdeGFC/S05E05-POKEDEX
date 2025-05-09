@@ -62,7 +62,7 @@ function Home() {
 			<video ref={videoRef} className="background-video" src={pokevid} loop />
 			<div className="home__content">
 				<h2 className="home__title">
-					Hola {name ? <>de nuevo {name}</> : 'Entrenador !!'}
+					Hola {name ? <>de nuevo {name}</> : 'Entrenador'} !!
 				</h2>
 
 				<div>
@@ -72,7 +72,7 @@ function Home() {
 								Continuemos con tu viaje, regresa a la
 								<Link className="home__link" to="/pokedex">
 									{' '}
-									Pokédex!!
+									Pokédex !!
 								</Link>
 							</p>
 							<button className="home__btn btn--radius" onClick={clearName}>
