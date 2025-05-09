@@ -62,7 +62,7 @@ function Home() {
 			<video ref={videoRef} className="background-video" src={pokevid} loop />
 			<div className="home__content">
 				<h2 className="home__title">
-					Hola {name ? <>de nuevo {name}</> : 'Entrenador !!'} !
+					Hola {name ? <>de nuevo {name}</> : 'Entrenador !!'}
 				</h2>
 
 				<div>
@@ -81,7 +81,7 @@ function Home() {
 						</>
 					) : (
 						<>
-							<p>Ingresa tu nombre para comenzar!!</p>
+							<p>Ingresa tu nombre para comenzar !!</p>
 							<input
 								ref={inputRef}
 								type="text"
